@@ -1,0 +1,38 @@
+.form-submit{
+    width: 8rem;
+    height: 4rem;
+    text-align: center;
+    position: fixed;
+    bottom: 1rem;
+    right: -400px;
+    border: 2px solid #FF033E;
+    padding: 0.5rem 1rem;
+    border-radius: 2%;
+    background-color: aliceblue;
+    transition: all 0.5s ease-out;
+    z-index:10000;
+    
+}
+.form-submit-action{
+    right: 5px;
+    display: block;
+    width: fit-content;
+}
+
+.form-submit h2{
+    margin: 5px;
+    font-size: 1.1rem;
+}
+.form-submit p{
+    margin-top: 0px;
+}
+@media (max-width: 700px) {
+    .form-submit h2{
+       margin: 5px 5px; 
+       font-size: 1.1rem;
+    }
+    .form-submit{
+        padding: 0.2rem 0.8rem;
+    }
+    
+    }
