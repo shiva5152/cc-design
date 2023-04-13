@@ -1,7 +1,9 @@
 import React from 'react'
 import gallaryData from '../utils/gallaryData'
 import Gallarypage from './Gallarypage'
+
 const Gallary = () => {
+  
   return (
     <div className="gallary-container">
         <h1>Work Gallery</h1>
@@ -11,7 +13,7 @@ const Gallary = () => {
       })}
     </div>
     </div>
-  )
+     )
 }
 
 export default Gallary
